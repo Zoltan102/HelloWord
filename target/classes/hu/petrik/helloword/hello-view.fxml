@@ -14,7 +14,7 @@
    <children>
       <HBox spacing="20.0">
          <children>
-            <TextField fx:id="nevMezo" promptText="Név" HBox.hgrow="ALWAYS" />
+            <TextField id="nevMezo" promptText="Név" HBox.hgrow="ALWAYS" />
             <Button mnemonicParsing="false" onAction="#koszontes" text="Köszöntés!" />
          </children>
       </HBox>
